@@ -63,7 +63,12 @@ header.masthead {
     background: #107caa;
 }
 .start-home-img{
+
+}
+.planet{
     position: absolute;
+    left: 35%;
+    margin-top:5%;
 }
 .planet-home-img{
     position: absolute;
@@ -151,7 +156,12 @@ header.masthead {
     padding: 20px;
     font-size: 25px;
 }
-
+.footer-redes-a:hover{
+    color: transparent!important;
+}
+.footer-redes-a{
+    color: transparent!important;
+}
 
 
 
