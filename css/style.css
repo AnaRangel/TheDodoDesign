@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-footer{
     padding: 100px 0;
-    background: #061d3f;
+    background: #120c14;
 }
 header.masthead {
     background-image: -webkit-gradient(linear,left top, right top,from(#110c13),to(#170d17));
@@ -148,7 +148,7 @@ header.masthead {
     padding-bottom: 0px;
 }
 .bg-home-dav{
-    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #1c2e5c 50%, #1c2e5c 100%);
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #0d080e 50%, #0d080e 100%);
     padding-bottom: 60px;
 }
 .footer-redes i{
@@ -208,6 +208,9 @@ header.masthead {
         background-image: linear-gradient(90deg,#110c13,#170d17);;
     }
     #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
+        color: #fff;
+    }
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
         color: #fff;
     }
 }
