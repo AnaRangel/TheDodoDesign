@@ -41,6 +41,7 @@ header.masthead {
   }
 #mainNav {
     font-family: 'Pangram Light', sans-serif;
+    background-color: #110c13;
 }
 .btn {
   font-weight: 600;
@@ -162,8 +163,12 @@ header.masthead {
 .footer-redes-a{
     color: transparent!important;
 }
-
-
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
 
 
 
@@ -215,10 +220,56 @@ header.masthead {
     }
 }
 
+@media (min-width: 776px){
+    .disheader-2{
+        display: none!important;
+    }
+}
 
+@media (max-width: 776px){
+    .disheader-1{
+        display: none!important;
+    }
+    .disheader-2{
+        display: block!important;
+    }
+    .row-custon{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .home-redes-services {
+        padding-left: 0px;
+    }
+    section {
+        padding: 2rem 0;
+    }
+    .pt100 {
+        padding-top: 20px;
+    }
+}
 
-
-
+@media only screen and (max-width : 768px) {
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+}
 
 
 
