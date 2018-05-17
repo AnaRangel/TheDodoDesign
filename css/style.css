@@ -172,7 +172,9 @@ header.masthead {
     text-transform: uppercase;
     color: #fff;
 }
-
+.dis-none{
+    display: none;
+}
 
 
 

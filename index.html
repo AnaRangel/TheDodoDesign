@@ -98,8 +98,13 @@
             </div>
           </div>
           <div class="revealOnScroll" data-animation="fadeIn">
-            <div class="layer" data-depth="0.1" >
+            <div class="layer" data-depth="0.1" id="nav-one">
               <img class="vader-home-img some-space" src="img/home/vader.png">
+              <div class="dis-none">
+                <audio id="beep-one" controls="controls" preload="auto">
+                  <source src="img/home/vader.mp3"></source>
+                </audio>
+              </div>
             </div>
           </div>
         </div>
@@ -330,6 +335,13 @@
 
     <script  src="vendor/animate.css/index.js"></script>
 
+    <script>
+      var beepOne = $("#beep-one")[0];
+        $("#nav-one img")
+          .mouseenter(function() {
+            beepOne.play();
+          });
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119373752-1"></script>
