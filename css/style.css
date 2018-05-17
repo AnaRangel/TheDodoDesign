@@ -51,7 +51,7 @@ header.masthead {
   color: #fff;
 }
 .fd-video-1{
-    max-height: 90vh!important;
+    /*max-height: 90vh!important;*/
     right: -10vw;
     margin-top:10vh;
     opacity: 1; 
