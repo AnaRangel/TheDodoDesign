@@ -21,7 +21,16 @@ h1, h2, h3, h4, h5, h6 {
 .resposive-img{
     max-width: 100%;
 }
+.pt20{
+    padding-top: 20px;
+}
+.pt40{
+    padding-top: 40px;
+}
 .pt100{
+    padding-top: 100px;
+}
+.pt100r{
     padding-top: 100px;
 }
 .text-right{
@@ -29,6 +38,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .center{
     text-align: center;
+}
+.my{
+    text-transform: uppercase
 }
 
 .bg-footer{
@@ -161,7 +173,7 @@ header.masthead {
     font-size: 25px;
 }
 .footer-redes-a:hover{
-    color: transparent!important;
+    color: transparent!important;6
 }
 .footer-redes-a{
     color: transparent!important;
@@ -175,14 +187,64 @@ header.masthead {
 .dis-none{
     display: none;
 }
+.box-shadow{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    padding: 20px;
+    border-radius: 2px;
+    text-align: justify;
+}
+.box-shadow p{
+    font-size: 18px!important;      
+}
+.box-shadow:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.img-shadow{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+}
+.name div{
+    display: inline-block;
+}
+.col-md-1-5{
+    max-width: 12.499999995%;
+}
+.empresas-slider{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.empresas-slider:hover{
 
 
-
-
-
-
-
-
+    -webkit-filter: grayscale(10%);
+    filter: grayscale(10%);
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+.box-skill{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border-radius: 2px;
+}
+.box-skill:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.box-skill-1{
+    padding: 20px;
+    text-align: center;
+}
+.box-skill-1 p{
+    font-size: 25px;
+}
+.progress-bar{
+    background-color: #5995d6;
+}
+.progress-bar.active, .progress.active .progress-bar {
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite;
+}
 
 
 
@@ -229,6 +291,12 @@ header.masthead {
     .disheader-2{
         display: none!important;
     }
+    .box-shadow{
+        margin-left: -100px;
+    }
+    .fs55{
+        font-size: 55px!important;
+    }
 }
 
 @media (max-width: 776px){
@@ -250,6 +318,10 @@ header.masthead {
     }
     .pt100 {
         padding-top: 20px;
+    }
+    .pt100r{
+        margin-top: -20px;
+        padding-top:0px;
     }
     .codrops-header h1{
         font-size: 2em!important;
