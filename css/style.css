@@ -66,7 +66,7 @@ header.masthead {
     /*max-height: 90vh!important;*/
     right: -10vw;
     margin-top:10vh;
-    opacity: 1; 
+    opacity: 1;
     margin-right:-10vh;
 }
 .text-left{
@@ -195,7 +195,7 @@ header.masthead {
     text-align: justify;
 }
 .box-shadow p{
-    font-size: 18px!important;      
+    font-size: 18px!important;
 }
 .box-shadow:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
@@ -253,7 +253,7 @@ header.masthead {
 
 
 .img-libro{
-    margin-top: -150px;
+    margin-top: -60px;
     margin-left: -15px;
 }
 
@@ -297,6 +297,11 @@ header.masthead {
     .fs55{
         font-size: 55px!important;
     }
+    .img-libro{
+        margin-top: -150px;
+        margin-left: -15px;
+    }
+
 }
 
 @media (max-width: 776px){
