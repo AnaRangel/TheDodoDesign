@@ -246,8 +246,16 @@ header.masthead {
     animation: progress-bar-stripes 2s linear infinite;
 }
 
-
-
+.start-home-img-resposive{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.planet-home-img-some-space-resposive{
+    position: absolute;
+    left: 0;
+}
 
 
 
